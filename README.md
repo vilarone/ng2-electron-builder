@@ -48,7 +48,7 @@ Inportant file folders:
 ```
 ...
 ├── electron
-│   └── […Electron renderer file and config application json…]
+│   └── […Electron main file and config application json…]
 ├── release
 │   └── […the final electron-package & electron-builder generated files…]
 ├── src
