@@ -33,12 +33,11 @@ npm run electron
 # package application
 npm run package
 # build intaller
-npm run build
+npm run release
 
 ### add :prod for production minify (unglify)
 npm run electron:prod
 npm run package:prod
-npm run build:prod
 ```
 
 
