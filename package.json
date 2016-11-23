@@ -9,16 +9,20 @@
     "app": "dist",
     "buildResources": "build"
   },
+  "build": {
+    "appId": "app.electron.ng2"
+  },
   "scripts": {
+    "electrontsc":"tsc -p electron/",
     "start": "ng serve",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
     "e2e": "protractor",
     "dev": "ng build",
-    "build": "ng build",
-    "prepare:dev": "npm run dev && cp -a electron/. dist",
-    "prepare:prod": "npm run build && cp -a electron/. dist",
+    "build": "ng build --prod",
+    "prepare:dev": "npm run dev && npm run electrontsc && cp electron/package.json dist/",
+    "prepare:prod": "npm run build && npm run electrontsc && cp electron/package.json dist/",
     "prepare": "npm run prepare:dev",
     "electron:dev": "npm run prepare:dev && electron dist",
     "electron:prod": "npm run prepare:prod && electron dist",
