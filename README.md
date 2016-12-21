@@ -20,6 +20,16 @@ angular-cli for mor info please visit [angular-cli](https://github.com/angular/a
 npm install angular-cli -g
 ```
 
+If you use the electron into angular code like this src example, make the npm link of my angular-cli folk
+
+```
+git clone https://github.com/vilarone/angular-cli.git
+cd angular-cli
+npm link
+cd ..
+```
+I make a pull request to angular-cli project [#3346](https://github.com/angular/angular-cli/pull/3346) to solve this.
+
 ## Usage
 
 ```bash
@@ -27,6 +37,9 @@ npm install angular-cli -g
 git clone https://github.com/vilarone/ng2-electron-builder.git
 cd ng2-electron-builder
 npm install
+
+# make local npm link angular-cli . keep this if no use electron remote into angular
+npm link angular-cli
 
 # run electron application
 npm run electron
