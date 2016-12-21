@@ -2,3 +2,28 @@
   {{title}}
 </h1>
 {{lang}}
+<br>
+<h3>Test dialog.showErrorBox</h3>
+<label>title: </label>
+<input type="text" [(ngModel)]="errorbox.title">
+<br>
+<label>content: </label>
+<input type="text" [(ngModel)]="errorbox.content">
+<br>
+<button (click)="openErrorBox(errorbox.title,errorbox.content)">Open error dialog</button>
+<br>
+<h3>Test dialog.showMessageBox</h3>
+<label>type: </label>
+<select [(ngModel)]="optionsmbox.type">
+    <option [value]="i" *ngFor="let i of typebox">{{i}}</option>
+</select>
+<br>
+<label>title: </label>
+<input type="text" [(ngModel)]="optionsmbox.title">
+<br>
+<label>content: </label>
+<input type="text" [(ngModel)]="optionsmbox.message">
+<br>
+<button (click)="openMessageBox(optionsmbox)">Open electron dialog</button>
+<h3>Test dialog.dialog.showOpenDialog</h3>
+<button (click)="openOpenDialog()">Open showopen dialog</button>
