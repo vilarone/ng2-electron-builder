@@ -6,7 +6,7 @@
 
 Deployed and Tested under Win10. If you wish to collaborate test with other OS-Platforms.
 
-This project is under development for integrate the news angular updates and include pro tips.
+This project is under development for itnergrating the new angular updates and include pro tips.
 
 The angular-cli is now in beta, this project too.
 
@@ -28,7 +28,7 @@ cd angular-cli
 npm link
 cd ..
 ```
-I make a pull request to angular-cli project [#3346](https://github.com/angular/angular-cli/pull/3346) to solve this.
+I made a pull request to angular-cli project [#3346](https://github.com/angular/angular-cli/pull/3346) to solve this.
 
 ## Usage
 
