@@ -38,7 +38,7 @@ git clone https://github.com/vilarone/ng2-electron-builder.git
 cd ng2-electron-builder
 npm install
 
-# make local npm link angular-cli . keep this if no use electron remote into angular
+# make local npm link angular-cli . keep this if not using electron remote into angular
 npm link angular-cli
 
 # run electron application
@@ -56,7 +56,7 @@ npm run package:prod
 
 ## File Structure
 
-Important file folders:
+Important files / folders:
 
 ```
 ...
