@@ -6,7 +6,7 @@
 
 Deployed and Tested under Win10. If you wish to collaborate test with other OS-Platforms.
 
-This project is under development for integrate the news angular updates and include pro tips.
+This project is under development for integrating the new angular updates and include pro tips.
 
 The angular-cli is now in beta, this project too.
 
@@ -28,7 +28,7 @@ cd angular-cli
 npm link
 cd ..
 ```
-I make a pull request to angular-cli project [#3346](https://github.com/angular/angular-cli/pull/3346) to solve this.
+I made a pull request to angular-cli project [#3346](https://github.com/angular/angular-cli/pull/3346) to solve this.
 
 ## Usage
 
@@ -38,14 +38,14 @@ git clone https://github.com/vilarone/ng2-electron-builder.git
 cd ng2-electron-builder
 npm install
 
-# make local npm link angular-cli . keep this if no use electron remote into angular
+# make local npm link angular-cli . keep this if not using electron remote into angular
 npm link angular-cli
 
 # run electron application
 npm run electron
 # package application
 npm run package
-# build intaller
+# build installer
 npm run release
 
 ### add :prod for production minify (unglify)
@@ -54,9 +54,9 @@ npm run package:prod
 ```
 
 
-## File Estructure
+## File Structure
 
-Inportant file folders:
+Important files / folders:
 
 ```
 ...
