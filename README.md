@@ -6,7 +6,7 @@
 
 Deployed and Tested under Win10. If you wish to collaborate test with other OS-Platforms.
 
-This project is under development for itnergrating the new angular updates and include pro tips.
+This project is under development for integrating the new angular updates and include pro tips.
 
 The angular-cli is now in beta, this project too.
 
@@ -45,7 +45,7 @@ npm link angular-cli
 npm run electron
 # package application
 npm run package
-# build intaller
+# build installer
 npm run release
 
 ### add :prod for production minify (unglify)
@@ -54,9 +54,9 @@ npm run package:prod
 ```
 
 
-## File Estructure
+## File Structure
 
-Inportant file folders:
+Important file folders:
 
 ```
 ...
