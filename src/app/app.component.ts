@@ -30,7 +30,7 @@ export class AppComponent {
     remote.dialog.showMessageBox(options);
   }
   openOpenDialog(){
-    remote.dialog.showOpenDialog([]);
+    remote.dialog.showOpenDialog({});
   }
 
   changeSample(e: any) {
